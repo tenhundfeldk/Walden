@@ -8,7 +8,6 @@
   <sprites name="sprites">
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_bounding</sprite>
-    <sprite>sprites\fuck</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

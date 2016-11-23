@@ -1,11 +1,10 @@
 ///scr_move_state()
-scr_get_input();
 
 //Get the direction the player is facing
-dir = point_direction(0, 0, xaxis, yaxis);
+dir = point_direction(0, 0, obj_input.xaxis, obj_input.yaxis);
 
 //Get the length
-if (xaxis == 0 and yaxis == 0) {
+if (obj_input.xaxis == 0 and obj_input.yaxis == 0) {
     len = 0;
 } else {
     len = spd;

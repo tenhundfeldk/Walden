@@ -9,6 +9,7 @@
     <sprite>sprites\spr_player</sprite>
     <sprite>sprites\spr_bounding</sprite>
     <sprite>sprites\spr_camera</sprite>
+    <sprite>sprites\dff</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -21,6 +22,7 @@
     <object>objects\obj_bounding</object>
     <object>objects\obj_lifeform_parent</object>
     <object>objects\obj_camera</object>
+    <object>objects\obj_input</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_cathedral</room>

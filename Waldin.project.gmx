@@ -10,6 +10,8 @@
     <sprite>sprites\spr_bounding</sprite>
     <sprite>sprites\spr_camera</sprite>
     <sprite>sprites\dff</sprite>
+    <sprite>sprites\spr_skelaton</sprite>
+    <sprite>sprites\spr_box</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -23,6 +25,8 @@
     <object>objects\obj_lifeform_parent</object>
     <object>objects\obj_camera</object>
     <object>objects\obj_input</object>
+    <object>objects\obj_skelaton</object>
+    <object>objects\obj_box</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_cathedral</room>

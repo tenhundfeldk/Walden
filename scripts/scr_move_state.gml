@@ -17,3 +17,11 @@ vspd = lengthdir_y(len, dir);
 //Move the character
 phy_position_x += hspd;
 phy_position_y += vspd;
+
+//Place the candle
+var xx = obj_player.x + 50;
+var yy = obj_player.y + 50;
+if ((obj_input.place_candle) and (candles >= 1)) {
+    instance_create(xx, yy, obj_candle_lit);
+    candles -= 1;
+}

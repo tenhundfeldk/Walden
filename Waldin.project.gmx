@@ -12,6 +12,8 @@
     <sprite>sprites\dff</sprite>
     <sprite>sprites\spr_skelaton</sprite>
     <sprite>sprites\spr_box</sprite>
+    <sprite>sprites\spr_candle</sprite>
+    <sprite>sprites\spr_candle_lit</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -27,6 +29,8 @@
     <object>objects\obj_input</object>
     <object>objects\obj_skelaton</object>
     <object>objects\obj_box</object>
+    <object>objects\obj_candle</object>
+    <object>objects\obj_candle_lit</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_cathedral</room>

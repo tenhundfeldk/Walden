@@ -3,7 +3,7 @@ right_key = keyboard_check(vk_right);
 left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
-place_candle = keyboard_check(ord('P'));
+place_candle = keyboard_check_pressed(ord('P'));
 
 //Get the axis
 xaxis = (right_key - left_key);

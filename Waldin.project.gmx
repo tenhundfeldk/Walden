@@ -14,6 +14,7 @@
     <sprite>sprites\spr_box</sprite>
     <sprite>sprites\spr_candle</sprite>
     <sprite>sprites\spr_candle_lit</sprite>
+    <sprite>sprites\spr_ghoul</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -22,15 +23,21 @@
     <script>scripts\scr_move_state.gml</script>
   </scripts>
   <objects name="objects">
-    <object>objects\obj_player</object>
+    <objects name="Helpers">
+      <object>objects\obj_input</object>
+      <object>objects\obj_camera</object>
+    </objects>
     <object>objects\obj_bounding</object>
-    <object>objects\obj_lifeform_parent</object>
-    <object>objects\obj_camera</object>
-    <object>objects\obj_input</object>
-    <object>objects\obj_skelaton</object>
     <object>objects\obj_box</object>
     <object>objects\obj_candle</object>
     <object>objects\obj_candle_lit</object>
+    <object>objects\obj_ghoul</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_skelaton</object>
+    <objects name="Parents">
+      <object>objects\obj_enemy_parent</object>
+      <object>objects\obj_lifeform_parent</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_cathedral</room>

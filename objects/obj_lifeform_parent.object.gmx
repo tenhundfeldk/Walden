@@ -33,7 +33,7 @@ phy_fixed_rotation = true;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_box">
+    <event eventtype="4" ename="obj_lifeform_parent">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -79,7 +79,7 @@ phy_fixed_rotation = true;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_lifeform_parent">
+    <event eventtype="4" ename="obj_box">
       <action>
         <libid>1</libid>
         <id>603</id>

@@ -30,7 +30,7 @@ event_inherited();
 len = 0;
 spd = 2;
 state = scr_move_state;
-candles = 1000;
+candles = 20;
 </string>
           </argument>
         </arguments>

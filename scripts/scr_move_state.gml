@@ -8,6 +8,7 @@ if (obj_input.xaxis == 0 and obj_input.yaxis == 0) {
     len = 0;
 } else {
     len = spd;
+    scr_get_face();
 }
 
 //Get the horizontal and verticle speeds
@@ -25,3 +26,10 @@ if ((obj_input.place_candle) and (candles >= 1)) {
     instance_create(xx, yy, obj_candle_lit);
     candles -= 1;
 }
+
+//Dig a hole
+//if (obj_input.dig_hole) {
+//    var xdir = lengthdir_x(len, face * 90);
+//    var ydir = lengthdir_y(len, face * 90);
+//    instance_create(obj_player.x + xdir, obj_player.y + ydir, obj_hole);
+//}

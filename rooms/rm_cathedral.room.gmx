@@ -58,6 +58,10 @@
     <instance objName="obj_box" x="288" y="352" name="inst_9DB9C7D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_skelaton" x="352" y="352" name="inst_6A876A03" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_candle" x="448" y="256" name="inst_5616696B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bounding" x="0" y="0" name="inst_084EF0FE" locked="0" code="" scaleX="40" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bounding" x="1248" y="0" name="inst_B527A958" locked="0" code="" scaleX="1" scaleY="23" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bounding" x="0" y="0" name="inst_9797B279" locked="0" code="" scaleX="1" scaleY="23" colour="4294967295" rotation="0"/>
+    <instance objName="obj_bounding" x="0" y="704" name="inst_C7A77D89" locked="0" code="" scaleX="40" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

@@ -16,14 +16,22 @@
     <sprite>sprites\spr_candle_lit</sprite>
     <sprite>sprites\spr_ghoul</sprite>
     <sprite>sprites\spr_hole</sprite>
+    <sprite>sprites\spr_ghoul_hole</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_get_input.gml</script>
-    <script>scripts\scr_move_state.gml</script>
-    <script>scripts\scr_get_face.gml</script>
-    <script>scripts\scr_dig_hole.gml</script>
+    <scripts name="Enemy States">
+      <script>scripts\scr_follow_state.gml</script>
+    </scripts>
+    <scripts name="Helper Scripts">
+      <script>scripts\scr_get_input.gml</script>
+      <script>scripts\scr_get_face.gml</script>
+    </scripts>
+    <scripts name="Player States">
+      <script>scripts\scr_move_state.gml</script>
+      <script>scripts\scr_dig_hole.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <objects name="Helpers">

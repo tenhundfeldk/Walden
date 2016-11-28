@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///Init the enemy
 hp = 0;
+spd = .5;
 phy_fixed_rotation = true;
 </string>
           </argument>

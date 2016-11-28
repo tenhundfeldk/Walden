@@ -55,6 +55,9 @@ candles = 20;
             <kind>1</kind>
             <string>///Player step event
 script_execute(state);
+if (obj_input.dig_hole) {
+    state = scr_dig_hole;
+}
 </string>
           </argument>
         </arguments>

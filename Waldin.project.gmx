@@ -51,6 +51,7 @@
       <object>objects\obj_lifeform_parent</object>
     </objects>
     <object>objects\obj_hole</object>
+    <object>objects\jhccl_vahdas</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_cathedral</room>

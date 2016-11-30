@@ -52,6 +52,7 @@ hp = 3;
             <kind>1</kind>
             <string>///Follow the player
 scr_follow_state();
+depth = -y;
 </string>
           </argument>
         </arguments>
@@ -121,8 +122,8 @@ if (other.is_full == false) {
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>8,8</point>
-    <point>24,8</point>
+    <point>8,20</point>
+    <point>24,20</point>
     <point>24,32</point>
     <point>8,32</point>
   </PhysicsShapePoints>

@@ -20,10 +20,16 @@ phy_position_x += hspd;
 phy_position_y += vspd;
 
 //Place the candle
-//var xx = obj_player.x + 50;
-//var yy = obj_player.y + 50;
+var xx = obj_player.x + 50;
+var yy = obj_player.y + 50;
 if ((obj_input.place_candle) and (candles >= 1)) {
-    instance_create(obj_hole.x + 1, obj_hole.y + 14, obj_candle_lit);
+    instance_create(xx, yy, obj_candle_lit);
     candles -= 1;
 }
 
+//Dig a hole
+//if (obj_input.dig_hole) {
+//    var xdir = lengthdir_x(len, face * 90);
+//    var ydir = lengthdir_y(len, face * 90);
+//    instance_create(obj_player.x + xdir, obj_player.y + ydir, obj_hole);
+//}

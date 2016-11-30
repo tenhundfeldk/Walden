@@ -65,7 +65,6 @@ if (wall_collide and box_collide) {
 
 //state = 
 scr_follow_state();
-depth = -y;
 </string>
           </argument>
         </arguments>

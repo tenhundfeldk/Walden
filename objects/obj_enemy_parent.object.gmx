@@ -29,6 +29,7 @@
 hp = 0;
 spd = .5;
 phy_fixed_rotation = true;
+depth = -10;
 </string>
           </argument>
         </arguments>

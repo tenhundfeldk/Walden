@@ -52,7 +52,6 @@ hp = 3;
             <kind>1</kind>
             <string>///Follow the player
 scr_follow_state();
-depth = -y;
 </string>
           </argument>
         </arguments>

@@ -17,6 +17,7 @@
     <sprite>sprites\spr_ghoul</sprite>
     <sprite>sprites\spr_hole</sprite>
     <sprite>sprites\spr_ghoul_hole</sprite>
+    <sprite>sprites\spr_change</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

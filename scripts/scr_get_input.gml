@@ -4,7 +4,8 @@ left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 place_candle = keyboard_check_pressed(ord('P'));
-dig_hole = keyboard_check_pressed(ord('D'));
+dig_hole = keyboard_check_pressed(ord('D'));;
+pause_key = keyboard_check_pressed(ord('Z'));
 
 //Get the axis
 xaxis = (right_key - left_key);

@@ -97,7 +97,7 @@ scr_follow_state();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Change the sprite
+            <string> ///Change the sprite
 if (other.is_full == false) {
     instance_destroy();
     other.sprite_index = spr_ghoul_hole;
